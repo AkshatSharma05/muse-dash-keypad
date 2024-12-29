@@ -658,9 +658,9 @@
 			(pintype "passive")
 			(uuid "15ad5dad-83d6-4b0f-ac88-fab0953fd7bd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(model "C:/Users/d06ak/Desktop/projects/muse-dash-keypad/kicad-libraries/models/CherryMX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.54 -5.08 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2685,9 +2685,9 @@
 			(pintype "passive")
 			(uuid "dc9fdbaa-c3a3-4301-813b-6bf4612cdc51")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(model "C:/Users/d06ak/Desktop/projects/muse-dash-keypad/kicad-libraries/models/CherryMX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.54 -5.08 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2980,9 +2980,9 @@
 			(pintype "passive")
 			(uuid "516bbfb9-bde9-4ea7-89d6-4310455f8426")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(model "C:/Users/d06ak/Desktop/projects/muse-dash-keypad/kicad-libraries/models/CherryMX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.54 -5.08 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4222,9 +4222,9 @@
 			(pintype "passive")
 			(uuid "9817510b-a780-4035-b91b-81abf5cb48bd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(model "C:/Users/d06ak/Desktop/projects/muse-dash-keypad/kicad-libraries/models/CherryMX.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.54 -5.08 0)
 			)
 			(scale
 				(xyz 1 1 1)
