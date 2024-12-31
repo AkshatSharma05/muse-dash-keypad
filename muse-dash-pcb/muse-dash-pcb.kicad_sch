@@ -1341,6 +1341,260 @@
 				)
 			)
 		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega32U4-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3004,6 +3258,12 @@
 		(uuid "21ee6e3d-f111-47a5-81f7-4cb011c6f001")
 	)
 	(junction
+		(at 125.73 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23b5290b-e21e-48e2-8289-8d2a2f520d4c")
+	)
+	(junction
 		(at 233.68 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3026,6 +3286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38c2c36c-ecb3-444d-a99c-375a5cc6ccec")
+	)
+	(junction
+		(at 125.73 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a50ed8e-25c5-41c8-93fd-299e0950af34")
 	)
 	(junction
 		(at 243.84 77.47)
@@ -3070,6 +3336,12 @@
 		(uuid "861b913f-95e9-4620-87ea-0bfa085ef8bd")
 	)
 	(junction
+		(at 170.18 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ea26f8-630a-43aa-a42e-41173c99b157")
+	)
+	(junction
 		(at 49.53 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "05b6fd2f-61fe-4c71-86a4-4974099686d8")
+	)
+	(wire
+		(pts
+			(xy 114.3 24.13) (xy 116.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067c9279-cee2-4aa5-b835-5dd3ecc0cd46")
 	)
 	(wire
 		(pts
@@ -3309,6 +3591,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 24.13) (xy 170.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eae5680-a9d9-4258-9b66-affa1c69829b")
+	)
+	(wire
+		(pts
 			(xy 60.96 82.55) (xy 60.96 88.9)
 		)
 		(stroke
@@ -3346,6 +3638,16 @@
 			(type default)
 		)
 		(uuid "6d51a1d2-693d-4cc7-974f-02fb11263050")
+	)
+	(wire
+		(pts
+			(xy 133.35 33.02) (xy 162.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714e3dc1-439d-47a9-a999-0e608a74e446")
 	)
 	(wire
 		(pts
@@ -3419,6 +3721,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 21.59) (xy 170.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d51f39-d2c1-4fcd-8fb5-d529587d8680")
+	)
+	(wire
+		(pts
 			(xy 53.34 121.92) (xy 53.34 123.19)
 		)
 		(stroke
@@ -3439,6 +3751,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 24.13) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abdf7df-b384-41f2-a97a-9a408c05d6eb")
+	)
+	(wire
+		(pts
+			(xy 160.02 24.13) (xy 161.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae139bd-3638-48b2-b400-cb1f13048efe")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 170.18 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd47c8d-c251-4186-a688-479acd2b85f7")
+	)
+	(wire
+		(pts
 			(xy 45.72 100.33) (xy 60.96 100.33)
 		)
 		(stroke
@@ -3446,6 +3788,26 @@
 			(type default)
 		)
 		(uuid "9f4cde2b-8ae3-482c-b532-724fc12ee3c9")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10a44d0-48e7-44ee-884f-752ab27aa5fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 24.13) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa00cb68-5dca-4703-809a-7dc729fac103")
 	)
 	(wire
 		(pts
@@ -3509,6 +3871,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 24.13) (xy 170.18 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d323ebcc-039e-43a8-88a3-da84cf730f58")
+	)
+	(wire
+		(pts
 			(xy 60.96 109.22) (xy 50.8 109.22)
 		)
 		(stroke
@@ -3536,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "df955935-c46e-4144-8305-ba4580821a5c")
+	)
+	(wire
+		(pts
+			(xy 111.76 21.59) (xy 125.73 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe03b82-086f-43f6-8f23-78a55ddfdaac")
 	)
 	(wire
 		(pts
@@ -3608,11 +3990,23 @@
 		(uuid "fa14674d-b54f-40b2-8263-8234c562127f")
 	)
 	(rectangle
+		(start 101.6 15.24)
+		(end 189.23 49.53)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1cc4bb1a-f241-4d47-ac17-a1e50efd1a4d)
+	)
+	(rectangle
 		(start 161.925 107.95)
 		(end 270.51 151.13)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3624,7 +4018,7 @@
 		(end 274.32 97.79)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3636,7 +4030,7 @@
 		(end 112.395 184.785)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3648,7 +4042,7 @@
 		(end 68.58 42.545)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3660,7 +4054,7 @@
 		(end 207.01 97.79)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -3789,6 +4183,16 @@
 		)
 		(uuid "d9d7b7c9-bf46-4c12-8eb2-ff3bd7b6ab34")
 	)
+	(text "Underglow LEDs"
+		(exclude_from_sim no)
+		(at 148.59 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db2b5868-8a13-4002-8d4b-623a5ea432e8")
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 250.698 44.704 0)
@@ -3841,6 +4245,28 @@
 			)
 		)
 	)
+	(global_label "UNDERGLOW"
+		(shape input)
+		(at 91.44 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c639576-9719-4f96-9003-c32880106abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.8552 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 91.44 93.98 0)
@@ -3863,24 +4289,24 @@
 			)
 		)
 	)
-	(global_label "COM"
+	(global_label "UNDERGLOW"
 		(shape input)
-		(at 91.44 132.08 0)
+		(at 118.11 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "68000abe-2ecc-4a0d-896f-de2c05f2e06c")
+		(uuid "33a158ca-6fa7-49a3-944b-bfdfa1c6df79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4771 132.08 0)
+			(at 103.6948 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4035,28 +4461,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COM"
-		(shape input)
-		(at 175.26 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b153d196-f15e-445a-9831-c19e064e439a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 140.3871 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4437,6 +4841,214 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 165.1 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09f5a96a-53fa-49a2-8430-5646162674aa")
+		(property "Reference" "C9"
+			(at 167.386 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 165.1 20.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 161.29 25.0952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8059fad0-a874-4153-8473-ca2d25b55d0d")
+		)
+		(pin "2"
+			(uuid "9ed1241c-282e-4d3c-a6e9-6d23a29b2b17")
+		)
+		(instances
+			(project "muse-dash-pcb"
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c7657b2-fef5-4bd7-80d6-af299991bbbc")
+		(property "Reference" "#PWR019"
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca71d41e-401c-4661-9a0a-e4c6c9664b4d")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 125.73 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181bd09e-48c1-41cd-a619-d58299492e63")
+		(property "Reference" "D5"
+			(at 137.16 26.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.16 29.2414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 128.27 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 125.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "213d432d-3264-4109-b5f7-cdaf4efa520b")
+		)
+		(pin "3"
+			(uuid "a9e0e045-6c3b-4cd9-abc7-3fa6e4df51c9")
+		)
+		(pin "1"
+			(uuid "fdd8bae9-7c57-4355-8e70-5778f3df0a1a")
+		)
+		(pin "4"
+			(uuid "6517630d-f5a0-4230-b3c5-894547d8f868")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 53.34 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4788,6 +5400,72 @@
 			(project ""
 				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e83d8c4-041d-4cbb-b3e3-89a17f01eeea")
+		(property "Reference" "#PWR021"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0213ae9f-72a1-4ce6-a146-2fa33d8df11e")
+		)
+		(instances
+			(project "muse-dash-pcb"
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6771,6 +7449,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b907eb3-ad44-4503-b8ea-d9c8b2fc3a9d")
+		(property "Reference" "#PWR020"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a21194-f339-4a08-992a-2a97117515ff")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 203.2 128.27 90)
 		(unit 1)
@@ -7011,6 +7755,138 @@
 			(project "muse-dash-pcb"
 				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a46ac502-7773-4bb4-997e-97f728c667f9")
+		(property "Reference" "#PWR018"
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c27360-a38a-4ad3-8bda-e703ce2e4e4a")
+		)
+		(instances
+			(project "muse-dash-pcb"
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d6064c-c49a-49cf-93fd-263608673135")
+		(property "Reference" "#PWR017"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f149d0f-583f-4fbb-9ca4-023e234cf49b")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7343,6 +8219,215 @@
 			(project ""
 				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 170.18 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ce7539-bc86-4d4f-a528-ead5efc9181a")
+		(property "Reference" "D6"
+			(at 181.61 26.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 181.61 29.2414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 172.72 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73efadee-547a-4974-92b8-70620b49b146")
+		)
+		(pin "3"
+			(uuid "cd2bb4a4-eb88-41e9-b792-e603ab93c6f7")
+		)
+		(pin "1"
+			(uuid "06f3cf25-c61d-4a95-806e-a54de2ca477a")
+		)
+		(pin "4"
+			(uuid "66aafca0-56e9-42a2-aa95-c67dd6948fe9")
+		)
+		(instances
+			(project "muse-dash-pcb"
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec38457e-0bd5-4eb4-a9f3-e73653b8de28")
+		(property "Reference" "C8"
+			(at 123.19 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 120.396 19.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 124.46 23.1648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0dc87a5-8bd3-4e1b-b111-5eca7cffc701")
+		)
+		(pin "2"
+			(uuid "bf4b3c40-6d18-4b9d-972a-873c773814ad")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effafeb8-86d8-4bee-9759-73d78114d384")
+		(property "Reference" "#PWR016"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53a1e7a9-ab40-4edd-931a-fed243b9b38d")
+		)
+		(instances
+			(project ""
+				(path "/405c5a92-7271-4d11-b7bc-ebc292d04756"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
