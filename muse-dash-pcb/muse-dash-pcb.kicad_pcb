@@ -11500,4 +11500,72 @@
 		(net 43)
 		(uuid "5c1db805-112f-4e85-a7c1-0cd768760325")
 	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "0937ad33-2e83-4e69-8e7c-e7ed00790474")
+		(name "USB GND FILL")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 166.5732 51.7652) (xy 166.5224 62.8904) (xy 179.0192 62.8904) (xy 179.0192 51.7652)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "7a8aa5f5-2163-4063-8365-39af80daeee2")
+		(name "OSC GND FILL")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 184.7596 61.0108) (xy 196.7992 60.96) (xy 196.85 65.9892) (xy 184.7596 65.9892)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "a9e3611f-70f6-47b0-a771-12f960aec608")
+		(name "MCU GND FILL")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 198.8312 57.7596) (xy 212.1916 57.8104) (xy 212.1916 71.2216) (xy 198.7804 71.2216)
+			)
+		)
+	)
 )
