@@ -2185,7 +2185,7 @@
 		(descr "SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 -3.55 360)
+			(at 0 -3.55 0)
 			(layer "F.SilkS")
 			(uuid "efb6c4ed-5ce6-4011-a3db-9583f05543b7")
 			(effects
@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 0 3.55 360)
+			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "4c342296-9af8-4b13-94de-aabe2040171c")
 			(effects
@@ -2403,7 +2403,7 @@
 			(uuid "5346edfa-eddc-45af-b585-88752187030b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "20c1fc83-a7dc-4ba1-a2df-7ed9c9148b9b")
 			(effects
